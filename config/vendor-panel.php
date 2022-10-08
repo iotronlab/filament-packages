@@ -12,6 +12,7 @@ use Illuminate\Routing\Middleware\SubstituteBindings;
 use Illuminate\Session\Middleware\AuthenticateSession;
 use Illuminate\Session\Middleware\StartSession;
 use Illuminate\View\Middleware\ShareErrorsFromSession;
+use App\Http\Middleware\VendorAuthMiddleware;
 
 return [
 
@@ -25,7 +26,7 @@ return [
     |
     */
 
-    'path' => env('FILAMENT_PATH', 'admin'),
+    'path' => env('FILAMENT_PATH', 'vendor'),
 
     /*
     |--------------------------------------------------------------------------
@@ -53,7 +54,7 @@ return [
         'namespace' => 'App\\VendorPanel\\Pages',
         'path' => app_path('VendorPanel/Pages'),
         'register' => [
-            Pages\Dashboard::class,
+            // Pages\Dashboard::class,
         ],
     ],
 
@@ -88,7 +89,7 @@ return [
         'path' => app_path('VendorPanel/Widgets'),
         'register' => [
             Widgets\AccountWidget::class,
-            Widgets\FilamentInfoWidget::class,
+            // Widgets\FilamentInfoWidget::class,
         ],
     ],
 
@@ -119,7 +120,8 @@ return [
 
     'middleware' => [
         'auth' => [
-            Authenticate::class,
+            // Authenticate::class,
+            VendorAuthMiddleware::class
         ],
         'base' => [
             EncryptCookies::class,
