@@ -30,5 +30,5 @@ Route::post('vendor/logout', function (Request $request) {
     $request->session()->invalidate();
     $request->session()->regenerateToken();
 
-    return;
+    return redirect()->route('vendor.login');
 })->name('vendor.logout');

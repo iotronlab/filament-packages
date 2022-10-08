@@ -68,6 +68,13 @@ return [
     |
     */
 
+    'auth' => [
+        'guard' => 'vendor',
+        'pages' => [
+            'login' => \Filament\Http\Livewire\Auth\Login::class,
+        ],
+    ],
+
     'resources' => [
         'namespace' => 'App\\VendorPanel\\Resources',
         'path' => app_path('VendorPanel/Resources'),
