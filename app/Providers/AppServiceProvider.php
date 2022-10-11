@@ -31,7 +31,7 @@ class AppServiceProvider extends ServiceProvider
                 //  dd(Filament::getContext()->auth());
                 Filament::forContext('vendor-panel', function () {
                     Filament::registerUserMenuItems([
-                        'logout' => UserMenuItem::make()->label('Log Out')->url(route('vendor.logout')),
+                        'logout' => UserMenuItem::make()->label('Log Out')->url(route('vendor-panel.logout')),
                     ]);
 
 

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Livewire\VendorLogin;
 use Filament\Http\Middleware\Authenticate;
 use Filament\Http\Middleware\DispatchServingFilamentEvent;
 use Filament\Http\Middleware\MirrorConfigToSubpackages;
@@ -13,6 +14,7 @@ use Illuminate\Session\Middleware\AuthenticateSession;
 use Illuminate\Session\Middleware\StartSession;
 use Illuminate\View\Middleware\ShareErrorsFromSession;
 use App\Http\Middleware\VendorAuthMiddleware;
+use Illuminate\Support\Facades\App;
 
 return [
 
@@ -60,6 +62,23 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Auth
+    |--------------------------------------------------------------------------
+    |
+    | This is the configuration that Filament will use to handle authentication
+    | into the admin panel.
+    |
+    */
+
+    'auth' => [
+        'guard' => 'vendor',
+        'pages' => [
+            'login' => VendorLogin::class,
+        ],
+    ],
+
+    /*
+    |--------------------------------------------------------------------------
     | Resources
     |--------------------------------------------------------------------------
     |
@@ -67,13 +86,6 @@ return [
     | register resources from. You may also register resources here.
     |
     */
-
-    'auth' => [
-        'guard' => 'vendor',
-        'pages' => [
-            'login' => \Filament\Http\Livewire\Auth\Login::class,
-        ],
-    ],
 
     'resources' => [
         'namespace' => 'App\\VendorPanel\\Resources',

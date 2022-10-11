@@ -18,17 +18,3 @@ use App\Http\Livewire\VendorLogin;
 Route::get('/', function () {
     return view('welcome');
 });
-
-Route::get('vendor', function () {
-    return redirect()->route('vendor.login');
-});
-Route::get('vendor/login', VendorLogin::class)->name('vendor.login');
-
-Route::post('vendor/logout', function (Request $request) {
-    Auth::guard('vendor')->logout();
-
-    $request->session()->invalidate();
-    $request->session()->regenerateToken();
-
-    return redirect()->route('vendor.login');
-})->name('vendor.logout');

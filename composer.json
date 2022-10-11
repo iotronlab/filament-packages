@@ -9,7 +9,7 @@
         "doctrine/dbal": "^3.4",
         "filament/filament": "^2.16",
         "guzzlehttp/guzzle": "^7.2",
-        "iotronlab/filament-multi-guard": "^1.0@alpha",
+        "iotronlab/filament-multi-guard": "dev-main",
         "laravel/framework": "^9.19",
         "laravel/sanctum": "^3.0",
         "laravel/tinker": "^2.7"

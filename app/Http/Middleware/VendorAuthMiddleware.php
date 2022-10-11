@@ -34,6 +34,6 @@ class VendorAuthMiddleware extends Middleware
 
     protected function redirectTo($request): string
     {
-        return route('vendor.login');
+        return route('vendor-panel.auth.login');
     }
 }
