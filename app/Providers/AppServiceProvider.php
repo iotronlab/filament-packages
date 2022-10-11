@@ -25,17 +25,17 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        // dd(Filament::getContext('vendor-panel'));
+
         Filament::serving(
             function () {
-
+                //  dd(Filament::getContext()->auth());
                 Filament::forContext('vendor-panel', function () {
                     Filament::registerUserMenuItems([
                         'logout' => UserMenuItem::make()->label('Log Out')->url(route('vendor.logout')),
                     ]);
 
 
-                    // dd(Filament::getContext()->auth());
+                    //  dd(Filament::getContext());
                 });
             }
         );

@@ -2,7 +2,7 @@
 
 namespace App\VendorPanel\Pages;
 
-use Artificertech\FilamentMultiContext\Concerns\ContextualPage;
+use Iotronlab\FilamentMultiGuard\Concerns\ContextualPage;
 use Filament\Pages\Page;
 
 class VendorDashboard extends Page

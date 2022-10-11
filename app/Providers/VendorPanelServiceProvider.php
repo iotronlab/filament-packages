@@ -2,7 +2,7 @@
 
 namespace App\Providers;
 
-use Artificertech\FilamentMultiContext\ContextServiceProvider;
+use Iotronlab\FilamentMultiGuard\ContextServiceProvider;
 use Filament\Facades\Filament;
 
 class VendorPanelServiceProvider extends ContextServiceProvider

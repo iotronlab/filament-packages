@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0a8a95cd28633714f83c987833577f6d",
+    "content-hash": "c9b3d11271ca7c1326c28495ce57a071",
     "packages": [
         {
             "name": "akaunting/laravel-money",
@@ -73,78 +73,6 @@
                 "source": "https://github.com/akaunting/laravel-money/tree/3.1.2"
             },
             "time": "2022-07-27T08:16:36+00:00"
-        },
-        {
-            "name": "artificertech/filament-multi-context",
-            "version": "v2.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/artificertech/filament-multi-context.git",
-                "reference": "835252a4974326991081c9d89d874880cbbb9177"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/artificertech/filament-multi-context/zipball/835252a4974326991081c9d89d874880cbbb9177",
-                "reference": "835252a4974326991081c9d89d874880cbbb9177",
-                "shasum": ""
-            },
-            "require": {
-                "filament/filament": "^2.15.16|^2.16",
-                "illuminate/contracts": "^8.6|^9.0",
-                "php": "^8.0",
-                "spatie/laravel-package-tools": "^1.9.2"
-            },
-            "require-dev": {
-                "laravel/pint": "^1.1",
-                "nunomaduro/collision": "^6.0",
-                "nunomaduro/larastan": "^2.0.1",
-                "orchestra/testbench": "^7.0",
-                "pestphp/pest": "^1.21",
-                "pestphp/pest-plugin-laravel": "^1.1",
-                "pestphp/pest-plugin-livewire": "^1.0",
-                "phpstan/extension-installer": "^1.1",
-                "phpstan/phpstan-deprecation-rules": "^1.0",
-                "phpstan/phpstan-phpunit": "^1.0",
-                "phpunit/phpunit": "^9.5",
-                "spatie/laravel-ray": "^1.26"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Artificertech\\FilamentMultiContext\\FilamentMultiContextServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Artificertech\\FilamentMultiContext\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Cole Shirley",
-                    "email": "cole.shirley@artificertech.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "a package for adding multiple contexts to the filament admin panel",
-            "homepage": "https://github.com/artificertech/filament-multi-context",
-            "keywords": [
-                "artificertech",
-                "filament",
-                "filament-multi-context",
-                "laravel"
-            ],
-            "support": {
-                "issues": "https://github.com/artificertech/filament-multi-context/issues",
-                "source": "https://github.com/artificertech/filament-multi-context/tree/v2.0.1"
-            },
-            "time": "2022-09-27T03:05:18+00:00"
         },
         {
             "name": "blade-ui-kit/blade-heroicons",
@@ -1168,16 +1096,16 @@
         },
         {
             "name": "filament/filament",
-            "version": "v2.16.23",
+            "version": "v2.16.28",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filamentphp/admin.git",
-                "reference": "95e135de7f5211487f39e0ec7b31e8d3ab718c32"
+                "reference": "c678c48b9b4b0fb6de6d4fa2694501421798d9eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filamentphp/admin/zipball/95e135de7f5211487f39e0ec7b31e8d3ab718c32",
-                "reference": "95e135de7f5211487f39e0ec7b31e8d3ab718c32",
+                "url": "https://api.github.com/repos/filamentphp/admin/zipball/c678c48b9b4b0fb6de6d4fa2694501421798d9eb",
+                "reference": "c678c48b9b4b0fb6de6d4fa2694501421798d9eb",
                 "shasum": ""
             },
             "require": {
@@ -1227,20 +1155,20 @@
                 "issues": "https://github.com/filamentphp/filament/issues",
                 "source": "https://github.com/filamentphp/filament"
             },
-            "time": "2022-10-07T13:19:50+00:00"
+            "time": "2022-10-10T08:49:48+00:00"
         },
         {
             "name": "filament/forms",
-            "version": "v2.16.23",
+            "version": "v2.16.28",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filamentphp/forms.git",
-                "reference": "04d96791f6a098f2a501957bb685511ebc58ab14"
+                "reference": "44d740571676abe2ac54b71bf66e9a7343cbfb9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filamentphp/forms/zipball/04d96791f6a098f2a501957bb685511ebc58ab14",
-                "reference": "04d96791f6a098f2a501957bb685511ebc58ab14",
+                "url": "https://api.github.com/repos/filamentphp/forms/zipball/44d740571676abe2ac54b71bf66e9a7343cbfb9b",
+                "reference": "44d740571676abe2ac54b71bf66e9a7343cbfb9b",
                 "shasum": ""
             },
             "require": {
@@ -1285,20 +1213,20 @@
                 "issues": "https://github.com/filamentphp/filament/issues",
                 "source": "https://github.com/filamentphp/filament"
             },
-            "time": "2022-10-07T13:20:08+00:00"
+            "time": "2022-10-10T08:49:37+00:00"
         },
         {
             "name": "filament/notifications",
-            "version": "v2.16.23",
+            "version": "v2.16.28",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filamentphp/notifications.git",
-                "reference": "5576ffb0f426effa7e3c11aa5578180d685af5e6"
+                "reference": "567fe8d44ae855f75c8c6c29467d81ca1255656b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filamentphp/notifications/zipball/5576ffb0f426effa7e3c11aa5578180d685af5e6",
-                "reference": "5576ffb0f426effa7e3c11aa5578180d685af5e6",
+                "url": "https://api.github.com/repos/filamentphp/notifications/zipball/567fe8d44ae855f75c8c6c29467d81ca1255656b",
+                "reference": "567fe8d44ae855f75c8c6c29467d81ca1255656b",
                 "shasum": ""
             },
             "require": {
@@ -1335,20 +1263,20 @@
                 "issues": "https://github.com/filamentphp/filament/issues",
                 "source": "https://github.com/filamentphp/filament"
             },
-            "time": "2022-10-07T13:19:43+00:00"
+            "time": "2022-10-10T08:49:44+00:00"
         },
         {
             "name": "filament/support",
-            "version": "v2.16.23",
+            "version": "v2.16.28",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filamentphp/support.git",
-                "reference": "c2a7c4ab946796248d204acfe012835a53132298"
+                "reference": "98561eb207eaafde2f451ff0aabbff08b8b06207"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filamentphp/support/zipball/c2a7c4ab946796248d204acfe012835a53132298",
-                "reference": "c2a7c4ab946796248d204acfe012835a53132298",
+                "url": "https://api.github.com/repos/filamentphp/support/zipball/98561eb207eaafde2f451ff0aabbff08b8b06207",
+                "reference": "98561eb207eaafde2f451ff0aabbff08b8b06207",
                 "shasum": ""
             },
             "require": {
@@ -1385,20 +1313,20 @@
                 "issues": "https://github.com/filamentphp/filament/issues",
                 "source": "https://github.com/filamentphp/filament"
             },
-            "time": "2022-10-07T13:19:55+00:00"
+            "time": "2022-10-10T08:49:40+00:00"
         },
         {
             "name": "filament/tables",
-            "version": "v2.16.23",
+            "version": "v2.16.28",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filamentphp/tables.git",
-                "reference": "9c94449c83078b8eaf0b02485e58450a4985d82d"
+                "reference": "a988118b828acbc8fd729b48cd874748d805f9c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filamentphp/tables/zipball/9c94449c83078b8eaf0b02485e58450a4985d82d",
-                "reference": "9c94449c83078b8eaf0b02485e58450a4985d82d",
+                "url": "https://api.github.com/repos/filamentphp/tables/zipball/a988118b828acbc8fd729b48cd874748d805f9c7",
+                "reference": "a988118b828acbc8fd729b48cd874748d805f9c7",
                 "shasum": ""
             },
             "require": {
@@ -1441,7 +1369,7 @@
                 "issues": "https://github.com/filamentphp/filament/issues",
                 "source": "https://github.com/filamentphp/filament"
             },
-            "time": "2022-10-07T13:20:02+00:00"
+            "time": "2022-10-10T12:12:52+00:00"
         },
         {
             "name": "fruitcake/php-cors",
@@ -1906,6 +1834,91 @@
                 }
             ],
             "time": "2022-08-28T14:45:39+00:00"
+        },
+        {
+            "name": "iotronlab/filament-multi-guard",
+            "version": "v1.0.0-alpha",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/iotronlab/filament-multi-guard.git",
+                "reference": "9b3d1eda328855c1a1fde4e6439b412f052af495"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/iotronlab/filament-multi-guard/zipball/9b3d1eda328855c1a1fde4e6439b412f052af495",
+                "reference": "9b3d1eda328855c1a1fde4e6439b412f052af495",
+                "shasum": ""
+            },
+            "require": {
+                "filament/filament": "^2.15.16|^2.16",
+                "illuminate/contracts": "^9.0",
+                "php": "^8.1",
+                "spatie/laravel-package-tools": "^1.13.0"
+            },
+            "require-dev": {
+                "laravel/pint": "^1.0",
+                "nunomaduro/collision": "^6.0",
+                "nunomaduro/larastan": "^2.0.1",
+                "orchestra/testbench": "^7.0",
+                "pestphp/pest": "^1.21",
+                "pestphp/pest-plugin-laravel": "^1.1",
+                "phpstan/extension-installer": "^1.1",
+                "phpstan/phpstan-deprecation-rules": "^1.0",
+                "phpstan/phpstan-phpunit": "^1.0",
+                "phpunit/phpunit": "^9.5",
+                "spatie/laravel-ray": "^1.26"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Iotronlab\\FilamentMultiGuard\\FilamentMultiGuardServiceProvider"
+                    ],
+                    "aliases": {
+                        "FilamentMultiGuard": "Iotronlab\\FilamentMultiGuard\\Facades\\FilamentMultiGuard"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Iotronlab\\FilamentMultiGuard\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cole Shirley",
+                    "email": "cole.shirley@artificertech.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "iotronlab",
+                    "email": "support@iotronlab.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "krishzzi",
+                    "email": "krishanu.info@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Multi Guard Context for Filament Admin",
+            "homepage": "https://github.com/iotronlab/filament-multi-guard",
+            "keywords": [
+                "filament",
+                "filament-multi-context",
+                "filament-multi-guard",
+                "iotronlab",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/iotronlab/filament-multi-guard/issues",
+                "source": "https://github.com/iotronlab/filament-multi-guard/tree/v1.0.0-alpha"
+            },
+            "time": "2022-10-10T16:55:56+00:00"
         },
         {
             "name": "laravel/framework",
@@ -9333,7 +9346,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "iotronlab/filament-multi-guard": 15
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
