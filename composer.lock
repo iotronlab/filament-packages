@@ -1841,12 +1841,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/iotronlab/filament-multi-guard.git",
-                "reference": "706730b535ae2a34529daead53348b7a239f3ae7"
+                "reference": "3a54d3669699faa2ad3f41ca5ff820108a291723"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/iotronlab/filament-multi-guard/zipball/706730b535ae2a34529daead53348b7a239f3ae7",
-                "reference": "706730b535ae2a34529daead53348b7a239f3ae7",
+                "url": "https://api.github.com/repos/iotronlab/filament-multi-guard/zipball/3a54d3669699faa2ad3f41ca5ff820108a291723",
+                "reference": "3a54d3669699faa2ad3f41ca5ff820108a291723",
                 "shasum": ""
             },
             "require": {
@@ -1919,7 +1919,7 @@
                 "issues": "https://github.com/iotronlab/filament-multi-guard/issues",
                 "source": "https://github.com/iotronlab/filament-multi-guard/tree/main"
             },
-            "time": "2022-10-11T17:33:44+00:00"
+            "time": "2022-10-11T18:31:09+00:00"
         },
         {
             "name": "laravel/framework",
