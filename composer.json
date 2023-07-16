@@ -9,10 +9,10 @@
         "doctrine/dbal": "^3.4",
         "filament/filament": "^2.16",
         "guzzlehttp/guzzle": "^7.2",
-        "iotronlab/filament-multi-guard": "dev-main",
         "laravel/framework": "^9.19",
         "laravel/sanctum": "^3.0",
-        "laravel/tinker": "^2.7"
+        "laravel/tinker": "^2.7",
+        "iotronlab/filament-multi-guard": "dev-main"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
@@ -63,6 +63,12 @@
             "pestphp/pest-plugin": true
         }
     },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./packages/iotronlab/filament-multi-guard"
+        }
+    ],
     "minimum-stability": "dev",
     "prefer-stable": true
 }
